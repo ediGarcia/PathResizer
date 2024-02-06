@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <AssemblyName>Path Resizer</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HelperExtensions">
+      <HintPath>..\..\..\..\Dropbox\Projects\DLL\HelperExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="HelperMethods">
+      <HintPath>..\..\..\..\Dropbox\Projects\DLL\HelperMethods.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
